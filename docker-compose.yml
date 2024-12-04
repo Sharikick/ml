@@ -1,0 +1,6 @@
+services:
+  ml:
+    build: "."
+    container_name: "ml"
+    volumes:
+      - ./src:/app/src
